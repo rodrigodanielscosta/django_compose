@@ -8,4 +8,4 @@ venv/*
 *.env
 imagens
 
-app/scrap/migrations/*
+migrations/*
