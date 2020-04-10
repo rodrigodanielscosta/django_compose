@@ -6,6 +6,8 @@ Containers python3 e nginx para projetos Django simples.
 Crie um arquivo .env minimamente com:
 SECRET_KEY='sua_secret_key'
 DEBUG=1
+DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+
 
 docker-compose up --build -d
 
